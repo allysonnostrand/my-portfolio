@@ -1,0 +1,21 @@
+nav {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: inline-block;
+    justify-content: start;
+    background-color: aqua;
+}
+
+nav ul {
+    background-color: greenyellow;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-flex;
+}
