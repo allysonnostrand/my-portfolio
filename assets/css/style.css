@@ -17,6 +17,7 @@ nav {
     margin: 0;
     padding: 0;
     color: var(--dark);
+    border-bottom: 10px solid black;
 }
 
 nav a {
@@ -30,8 +31,8 @@ header {
     margin-left: 20px;
     padding: 5px;
     font-size: larger;
-    color: rgb(75, 4, 25);
-    text-shadow: -1px 0 rgb(224, 144, 144), 0 1px rgb(224, 144, 144), 1px 0 rgb(224, 144, 144), 0 -1px rgb(224, 144, 144);  
+    color: var(--dark);
+    text-shadow: -1px 0 rgb(255, 218, 218), 0 1px rgb(255, 218, 218), 1px 0 rgb(255, 218, 218), 0 -1px rgb(255, 218, 218);  
 }
 
 nav ul {
@@ -50,18 +51,38 @@ nav li {
 
 .link :hover, .link :focus {
     outline: none;
-    text-shadow: 4px 4px 5px rgb(216, 255, 177), 2px 2px 5px pink;
+    text-shadow: 4px 4px 5px rgb(216, 255, 177), 1px 1px 2.5px pink;
     transition: all .5s ease;
 }
 
 /*main-----------------------------*/
- 
+ main {
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
 .image-1 {
+    display: block;
     border-radius: 50px;
     margin-top: 50px;
-    border: 15px dotted black;
+    border: 16px dotted black;
 }
 
 .image-1 :hover, .image-1 :focus {
 /* trying to create image focus and glow */
+}
+
+.bio {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 50px;
+    background-color: rgb(143, 233, 203); opacity: 75%;
+    width: 600px;
+    max-width: max-content;
+    border-radius: 50px;
+}
+
+.bio p {
+    text-align: center;
 }
