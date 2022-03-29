@@ -1,8 +1,8 @@
 :root{
    --dark: rgb(40, 33, 41);
    --darkest: black;
-
 }
+
 body {
     font-family: sans-serif;
     margin: auto 0;
@@ -68,7 +68,6 @@ nav li {
     border-radius: 50px;
     margin-top: 50px;
     border: 16px dotted var(--darkest);
-    /* max-width: ; */
 }
 
 .image-1:hover {
@@ -111,7 +110,7 @@ nav li {
     height: 150px;
 }
 
-    .placeholders:hover /*.placeholders img :focus */ {
+.placeholders:hover  {
     outline: none;
     box-shadow: 5px 5px 5px 5px rgb(255, 218, 197);
     transition: all .5s ease;
