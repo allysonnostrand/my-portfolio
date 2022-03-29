@@ -1,5 +1,6 @@
 :root{
    --dark: rgb(40, 33, 41);
+   --darkest: black;
 
 }
 body {
@@ -9,7 +10,7 @@ body {
     background-image: radial-gradient( circle, rgb(247, 198, 144) , rgb(254, 255, 175) , rgb(214, 248, 228));
 }
 
-/*nav----------------------------------*/
+/*nav--------------------------------------------------------------------------*/
 nav {
     background-image: linear-gradient( 90deg, rgb(179, 38, 235), rgb(86, 243, 152), rgb(42, 117, 167));
     display: flex;
@@ -17,7 +18,7 @@ nav {
     margin: 0;
     padding: 0;
     color: var(--dark);
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid var(--darkest);
 }
 
 nav a {
@@ -55,21 +56,24 @@ nav li {
     transition: all .5s ease;
 }
 
-/*main-----------------------------*/
+/*main-------------------------------------------------------------------------------*/
  main {
      display: inline-flex;
      flex-wrap: wrap;
      justify-content: space-between;
  }
+
 .image-1 {
     display: block;
     border-radius: 50px;
     margin-top: 50px;
-    border: 16px dotted black;
+    border: 16px dotted var(--darkest);
+    /* max-width: ; */
 }
 
-.image-1 :hover, .image-1 :focus {
-/* trying to create image focus and glow */
+.image-1:hover {
+    box-shadow: 5px 5px 5px 10px rgb(255, 218, 197);
+    transition: all .5s ease;  
 }
 
 .bio {
@@ -85,4 +89,84 @@ nav li {
 
 .bio p {
     text-align: center;
+}
+
+.Work h2 {
+    display: block center;
+    text-align: center;
+    background-color: chartreuse;
+
+}
+
+.container {
+    display:inline-flex;
+    max-width: 100%;
+}
+
+.placeholders {
+    margin: 20px;
+    border: 5px solid var(--darkest);
+    max-width: 100%;
+    width: 1200px;
+    height: 150px;
+}
+
+    .placeholders:hover /*.placeholders img :focus */ {
+    outline: none;
+    box-shadow: 5px 5px 5px 5px rgb(255, 218, 197);
+    transition: all .5s ease;
+}  
+
+/* footer---------------------------------------------------------------------------- */
+
+footer {
+    background-color: rgb(118, 73, 160);
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: var(--dark);
+    border-top: 10px solid var(--darkest);
+    text-decoration: none;
+    color: var(--darkest);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--darkest);
+    font-weight: bolder;
+}
+
+footer h2 {
+    margin-left: 20px;
+}
+
+.contacts {
+    display: inline-flex;
+    padding: 10px;
+}
+.contacts :hover, .contacts :focus {
+    outline: none;
+    text-shadow: 4px 4px 5px rgb(216, 255, 177);
+    transition: all .5s ease;  
+}
+
+/* mediaqueries---------------------------------------------------------------------- */
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+@media screen and (min-width: 1200px){
+    
 }
