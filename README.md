@@ -19,17 +19,17 @@ Finally, I have my "contact me" section located in the footer. The github link i
 
 Here is how my portfolio is viewed as an enlarged window. 
 
-<img src="./assets/images/my-portfolio-sc-1">
-<img src="./assets/images/my-portfolio-sc-2">
+<img src="./assets/images/my-portfolio-sc-1.png">
+<img src="./assets/images/my-portfolio-sc-2.png">
 
 Medium screensize 
 
-<img src="./assets/images/my-portfolio-sc-3">
-<img src ="./assets/images/my-portfolio-sc-4">
+<img src="./assets/images/my-portfolio-sc-3.png">
+<img src ="./assets/images/my-portfolio-sc-4.png">
 
 Small screensize 
 
-<img src="./assets/images/my-portfolio-sc-5">
-<img src="./assets/images/my-portfolio-sc-6">
+<img src="./assets/images/my-portfolio-sc-5.png">
+<img src="./assets/images/my-portfolio-sc-6.png">
 
 Most of my website is responsive to a change in display size as seen in the screenshots provided. 
