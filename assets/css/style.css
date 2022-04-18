@@ -105,19 +105,19 @@ nav li {
     max-width: 100%;
     min-width: 25%;
 }
-
+/* 
 .container {
     display:inline-flex;
     max-width: 100%;
     position: relative;
-}
+} */
 
-.container-text {
+/* .container-text {
     position: absolute;
     margin: 40px;
     padding: 20px;
     background-color: beige;
-}
+} */
 
 .placeholders {
     margin: 20px;
@@ -168,7 +168,7 @@ footer h2 {
 }
 
 /* mediaqueries---------------------------------------------------------------------- */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
 }
 
@@ -185,4 +185,4 @@ footer h2 {
 }
 @media screen and (min-width: 1200px){
     
-}
+} */
