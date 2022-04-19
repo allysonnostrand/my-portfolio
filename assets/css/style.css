@@ -18,6 +18,7 @@ nav {
     padding: 0;
     color: var(--dark);
     border-bottom: 10px solid var(--darkest);
+    color: black;
 }
 
 nav a {
@@ -25,14 +26,8 @@ nav a {
     color: var(--dark);
 }
 
-header {
-    display: inline-block;
-    justify-content: start;
-    margin-left: 20px;
-    padding: 5px;
-    font-size: larger;
-    color: var(--dark);
-    text-shadow: -1px 0 rgb(255, 218, 218), 0 1px rgb(255, 218, 218), 1px 0 rgb(255, 218, 218), 0 -1px rgb(255, 218, 218);  
+#navtext {
+    color: var(--darkest)
 }
 
 nav ul {
@@ -41,6 +36,7 @@ nav ul {
     text-decoration: none;
     padding-top: 5px;
     margin-right: 15px;
+    color: var(--darkest)
 }
 
 nav li {
@@ -103,9 +99,9 @@ nav li {
     height: 150px;
 }
 
-.placeholders:hover  {
+.card:hover  {
     outline: none;
-    box-shadow: 5px 5px 5px 5px rgb(255, 251, 37);
+    box-shadow: 5px 5px 5px 5px rgb(52, 0, 124);
     transition: all .5s ease;
 }  
 
@@ -139,6 +135,8 @@ footer h2 {
 }
 .contacts :hover, .contacts :focus {
     outline: none;
+    text-decoration: none;
+    color: var(--darkest);
     text-shadow: 4px 4px 5px rgb(216, 255, 177);
     transition: all .5s ease;  
 }
