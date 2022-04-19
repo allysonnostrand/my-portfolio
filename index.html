@@ -12,17 +12,17 @@
 <body> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Allyson Nostrand</a>
+            <a class="navbar-brand" href="#">Allyson Nostrand</a>
             <div class="" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#bio">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1RL_iHVA8p0kWARmMAvgv_GySDpAa_XP9/view?usp=sharing">Resume</a>
+                        <a class="nav-link" href="https://drive.google.com/file/d/1RL_iHVA8p0kWARmMAvgv_GySDpAa_XP9/view?usp=sharing">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -32,61 +32,60 @@
     <main>
         <img class="image-1 img-fluid" src="./assets/images/Portfolio-image-1.png" alt="me sitting funny in a chair"
         width="500px" height="600px">
-        
-    <br>
+            
+        <br>
+
         <section class="bio" id="bio"> 
             <container class="container-fluid">
-                 <h2>About Me</h2>
+                <h2>About Me</h2>
                     <p> I am an aspiring front-end Web Developer, currently enrolled in the UW Coding Bootcamp.</p>
                     <p>I love to create and work with others.</p>
                     <p>I have experience working with HTML and CSS, and javaScript.</p>
             </container>
         </section>
+
         <br><br><br>
 
         <section class="Work" id="Work">
             <h2>Work</h2>
-
             <container class="row">
-                <div class="card col-lg-6">
-                    <a href="https://github.com/DerriKhan/quoteGenerator">
-                        <img src="./assets/images/quoteGen-sc-1.png" id="project1" class="card-img-top" alt="quoteGen screenshot of upon loading" style="height: 200px;">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Quote Generator</h5>
-                        <p class="card-text">This is the first of three projects in the UW Coding Bootcamp. I learned how to work with others on github. This was created by a team of three; Isis, Nathan and myself.</p>
+                    <div class="card col-lg-12" style="margin-top: 2px; margin-bottom: 2px;">
+                        <a href="https://github.com/DerriKhan/quoteGenerator">
+                            <img src="./assets/images/quoteGen-sc-1.png" id="project1" class="card-img-top" alt="quoteGen screenshot of upon loading" style="height: 200px;">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Quote Generator</h5>
+                            <p class="card-text">This is the first of three projects in the UW Coding Bootcamp. I learned how to work with others on github. This was created by a team of three; Isis, Nathan and myself.</p>
+                        </div>
                     </div>
-                </div>
-            </container>
 
-            <container class="row">
-                <div class="card col-lg-6">
-                    <a href="https://github.com/DerriKhan/quoteGenerator">
-                        <img src="./assets/images/quoteGen-sc-1.png" id="project1" class="card-img-top" alt="quoteGen screenshot of upon loading" style="height: 200px;">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Quote Generator</h5>
-                        <p class="card-text">This is the first of three projects in the UW Coding Bootcamp. I learned how to work with others on github. This was created by a team of three; Isis, Nathan and myself.</p>
+                    <div class="card col-lg-6" style="margin-top: 2px; margin-bottom: 2px;">
+                        <a href="https://github.com/allysonnostrand/work-scheduler">
+                            <img src="./assets/images/work-scheduler-sc-1.png" id="project1" class="card-img-top" alt="Work day scheduler screenshot" style="height: 200px;">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Work Day Scheduler</h5>
+                            <p class="card-text">This is one of the homeworks in which we used moment.js to create a daily planner. The rows change colors based off the time of day</p>
+                        </div>
                     </div>
-                </div>
-            </container>
 
-            <container class="row">
-                <div class="card col-lg-6">
-                    <a href="https://github.com/DerriKhan/quoteGenerator">
-                        <img src="./assets/images/quoteGen-sc-1.png" id="project1" class="card-img-top" alt="quoteGen screenshot of upon loading" style="height: 200px;">
-                    </a>
-                    <div class="card-body">
-                          <h5 class="card-title">Quote Generator</h5>
-                          <p class="card-text">This is the first of three projects in the UW Coding Bootcamp. I learned how to work with others on github. This was created by a team of three; Isis, Nathan and myself.</p>
+                    <div class="card col-lg-6" style="margin-top: 2px; margin-bottom: 2px;">
+                        <a href="https://github.com/allysonnostrand/password-gen">
+                            <img src="./assets/images/password-gen-sc-1.png" id="project1" class="card-img-top" alt="quoteGen screenshot of upon loading" style="height: 200px;">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Password Generator</h5>
+                            <p class="card-text">This is one of the homeworks in which we had to take user input to generate a password for them.</p>
+                        </div>
                     </div>
-                </div>
             </container>
         </section>
     </main>
 
+    <br>
+
     <footer class="contact-me" id="contact-me">
-        <container class="container">
+        <container class="row">
             <h2>Contact Me</h2>
                 <ul>
                     <li class="contacts">
@@ -95,9 +94,7 @@
                     <li class="contacts">
                         <a href="https://linkedin.com/in/allyson-nostrand-912910154">LinkedIn</a>
                     </li>
-                    <li class="contacts">
-                        <a href="">Email</a>
-                    </li>
+                    <li class="contacts">Email: allyson.nostrandd@gmail.com</li>
                 </ul>
         </container>
     </footer>

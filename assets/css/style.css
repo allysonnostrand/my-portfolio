@@ -6,7 +6,6 @@
 body {
     font-family: sans-serif;
     margin: auto 0;
-    /* background-color: rgb(214, 248, 228); */
     background-image: radial-gradient( circle, rgb(247, 198, 144) , rgb(254, 255, 175) , rgb(214, 248, 228));
 }
 
@@ -75,17 +74,6 @@ nav li {
     transition: all .5s ease;  
 }
 
-.bio {
-    /* display: inline-flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    margin: 50px;
-    background-color: rgb(143, 233, 203); opacity: 75%;
-    width: 600px;
-    max-width: max-content;
-    min-width: 200px;
-    border-radius: 50px; */
-}
 /*work section----------------------------------------------------------------------- */
 .bio {
     text-align: center;
@@ -106,19 +94,6 @@ nav li {
     max-width: 100%;
     min-width: 25%;
 }
-/* 
-.container {
-    display:inline-flex;
-    max-width: 100%;
-    position: relative;
-} */
-
-/* .container-text {
-    position: absolute;
-    margin: 40px;
-    padding: 20px;
-    background-color: beige;
-} */
 
 .placeholders {
     margin: 20px;
@@ -167,23 +142,3 @@ footer h2 {
     text-shadow: 4px 4px 5px rgb(216, 255, 177);
     transition: all .5s ease;  
 }
-
-/* mediaqueries---------------------------------------------------------------------- */
-/* @media screen and (max-width: 600px) {
-
-}
-
-@media screen and (min-width: 600px) {
-
-}
-
-@media screen and (min-width: 768) {
-    
-}
-
-@media screen and (min-width: 992px) {
-    
-}
-@media screen and (min-width: 1200px){
-    
-} */
