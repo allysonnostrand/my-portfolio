@@ -76,7 +76,7 @@ nav li {
 }
 
 .bio {
-    display: inline-flex;
+    /* display: inline-flex;
     flex-wrap: wrap;
     justify-content:center;
     margin: 50px;
@@ -84,11 +84,12 @@ nav li {
     width: 600px;
     max-width: max-content;
     min-width: 200px;
-    border-radius: 50px;
+    border-radius: 50px; */
 }
 /*work section----------------------------------------------------------------------- */
-.bio p {
+.bio {
     text-align: center;
+    background-color: rgb(212, 42, 255, 50%);
 }
 
 .Work h2 {
